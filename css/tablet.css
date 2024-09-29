@@ -1,0 +1,92 @@
+@media (min-width: 767px) and (max-width: 1023px) {
+   /* banner */
+    .text-banner{
+        margin-left: -30px;
+    }
+    /* Mục 1: Nav-bar */
+    .text-nav {
+        display: none;
+    }
+    #nav-bar {
+        text-align: center;
+        margin-top: 35px;
+    }
+    #nav-bar a:link, a:visited {
+        /* text-decoration: none; */
+        color: #1d3557;
+        text-transform: uppercase;
+        border-left: 2px solid #dfe6e9;
+        padding: 65px 15px 34px;
+    }
+    #nav-bar a:hover,a:active {
+        font-weight: bold;
+        cursor: grab;
+    }
+    /* Info */
+    #personal-info {
+        padding: 5px 32px 43px 30px;
+        background-color: #e7f2f8;
+        font-size: 18px;
+        border-radius: 35px;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    .gap-4 {
+        --bs-gutter-x: 13.7rem;
+    }
+     /* Mục 4: job-Info */
+    h4{
+        font-size: 17.5px;
+    }
+    .job-title{
+        font-size: 28px;
+    }
+    #personal-info{
+        font-size: 16px;
+        padding-right: 40px;
+    }
+    #target{
+        font-size: 16px;
+    }
+    .icon-rounding{
+        margin-right: 1.17rem;
+    }
+    .hobby{
+        font-size: 15px; 
+        margin-left: -10px;
+        margin-bottom: 15.85rem;
+    }
+    /* Mục 5: Certificate */
+    .cer-content {
+        flex-direction: column;
+        gap: -15px;
+    }
+    .cer-content-3{
+        margin-top: -15px;
+    }
+    .cer-content-2{
+        margin-left: -10px;
+    }
+    /* Mục 6: Project */
+    .project-title{
+        font-size: 14.5px;
+    }
+    .project-border{
+        font-size: 15px;
+        padding: 10px 4px !important;
+    }
+    .project-border span {
+        margin-right: 5px !important;
+    }
+    .i1{
+        margin-left: 54.5px;
+    }
+    td {
+        font-size: 14px;
+    }
+    tr td:first-child{
+        width: 26%;
+    }
+    .td1{
+        line-height: 35px;
+    }
+}

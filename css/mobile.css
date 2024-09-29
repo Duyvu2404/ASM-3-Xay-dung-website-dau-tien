@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+   /* Mục 2: Text-banner */
+    .text-banner{
+        margin-left: -40px;
+    }
+    /* Mục 3: Nav-bar */
+    .text-nav{
+        display: none;
+    }
+    #nav-bar{
+        height: auto;
+        display: block;
+    }
+    #nav-bar a:link, a:visited {
+        display: block;
+        padding: 15px;
+        border-left: none;
+        color: #1d3557;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    #nav-bar a:hover,a:active {
+        font-weight: bold;
+        cursor: grab;
+    }
+    /* Certificate */
+    .cer-content-2{
+        border-left: 0;
+        border-top: 3px solid #d6c08d;
+        padding-top: 20px;
+    }
+    .img-cc{
+        height: 150px;
+    }
+    #h5{
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .p1 p{
+        font-size: 14.4px;
+        line-height: 22px;
+    }
+}
