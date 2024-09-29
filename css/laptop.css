@@ -25,7 +25,7 @@ section > .container {
     /* Chỉnh sửa ảnh Banner */
         .img-banner {
             position: relative;
-            background-image: url(/images/banner.jpg);
+            background-image: url(../images/banner.jpg);
             width: 100%;
             height: 600px;
             background-size: cover;
